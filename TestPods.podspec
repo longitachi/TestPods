@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.source_files = 'TestPods/Classes/**/*.{h,m}'
 
   s.requires_arc = true
-
+#  s.vendored_frameworks = 'TestPods/Classes/*.framework'
   s.frameworks   = 'Security','libiconv','SystemConfiguration','CoreGraphics','libsqlite3','CoreTelephony','libstdc++','libz'
 end

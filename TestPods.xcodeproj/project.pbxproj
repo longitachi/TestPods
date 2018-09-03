@@ -14,7 +14,6 @@
 		FD4BA640212A94C5009C3F4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4BA63E212A94C5009C3F4C /* LaunchScreen.storyboard */; };
 		FD4BA643212A94C5009C3F4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4BA642212A94C5009C3F4C /* main.m */; };
 		FD4BA64C212A9595009C3F4C /* ZLTestQQClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4BA64B212A9595009C3F4C /* ZLTestQQClass.m */; };
-		FD4BA64E212A959D009C3F4C /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD4BA64D212A959D009C3F4C /* TencentOpenAPI.framework */; };
 		FD4BA651212A95F4009C3F4C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD4BA650212A95F4009C3F4C /* CoreGraphics.framework */; };
 		FD4BA653212A9601009C3F4C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD4BA652212A9600009C3F4C /* Security.framework */; };
 		FD4BA655212A9614009C3F4C /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FD4BA654212A9614009C3F4C /* libiconv.tbd */; };
@@ -38,7 +37,6 @@
 		FD4BA642212A94C5009C3F4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FD4BA64A212A9595009C3F4C /* ZLTestQQClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLTestQQClass.h; sourceTree = "<group>"; };
 		FD4BA64B212A9595009C3F4C /* ZLTestQQClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLTestQQClass.m; sourceTree = "<group>"; };
-		FD4BA64D212A959D009C3F4C /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
 		FD4BA650212A95F4009C3F4C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		FD4BA652212A9600009C3F4C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		FD4BA654212A9614009C3F4C /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
@@ -60,7 +58,6 @@
 				FD4BA659212A9622009C3F4C /* CoreTelephony.framework in Frameworks */,
 				FD4BA657212A961B009C3F4C /* SystemConfiguration.framework in Frameworks */,
 				FD4BA655212A9614009C3F4C /* libiconv.tbd in Frameworks */,
-				FD4BA64E212A959D009C3F4C /* TencentOpenAPI.framework in Frameworks */,
 				FD4BA653212A9601009C3F4C /* Security.framework in Frameworks */,
 				FD4BA651212A95F4009C3F4C /* CoreGraphics.framework in Frameworks */,
 			);
@@ -106,7 +103,6 @@
 		FD4BA649212A9580009C3F4C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				FD4BA64D212A959D009C3F4C /* TencentOpenAPI.framework */,
 				FD4BA64A212A9595009C3F4C /* ZLTestQQClass.h */,
 				FD4BA64B212A9595009C3F4C /* ZLTestQQClass.m */,
 			);

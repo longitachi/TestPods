@@ -7,13 +7,13 @@
 //
 
 #import "ZLTestQQClass.h"
-#import <TencentOpenAPI/QQApiInterface.h>
+//#import <TencentOpenAPI/QQApiInterface.h>
 
 @implementation ZLTestQQClass
 
 + (void)test
 {
-    NSLog(@"---- qq %d", [QQApiInterface isQQSupportApi]);
+//    NSLog(@"---- qq %d", [QQApiInterface isQQSupportApi]);
 }
 
 @end
