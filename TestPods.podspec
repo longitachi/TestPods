@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'TestPods'
-  s.version      = '0.0.2'
+  s.version      = '0.0.3'
   s.summary      = 'for test'
   s.homepage     = 'https://github.com/longitachi/TestPods'
   s.license      = 'MIT'
