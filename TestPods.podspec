@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'TestPods'
-  s.version      = '0.0.3'
+  s.version      = '0.0.4'
   s.summary      = 'for test'
   s.homepage     = 'https://github.com/longitachi/TestPods'
   s.license      = 'MIT'
@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.source_files = 'TestPods/Classes/**/*.{h,m}'
 
   s.requires_arc = true
-#  s.vendored_frameworks = 'TestPods/Classes/*.framework'
+  s.vendored_frameworks = 'TestPods/Classes/*.framework'
 #  s.frameworks   = 'Security','libiconv','SystemConfiguration','CoreGraphics','libsqlite3','CoreTelephony','libstdc++','libz'
 end
