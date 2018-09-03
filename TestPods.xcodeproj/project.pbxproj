@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD07CE40213D068800E3C6FB /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD07CE3F213D068700E3C6FB /* TencentOpenAPI.framework */; };
 		FD4BA635212A94C4009C3F4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4BA634212A94C4009C3F4C /* AppDelegate.m */; };
 		FD4BA638212A94C4009C3F4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4BA637212A94C4009C3F4C /* ViewController.m */; };
 		FD4BA63B212A94C4009C3F4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4BA639212A94C4009C3F4C /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD07CE3F213D068700E3C6FB /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
 		FD4BA630212A94C4009C3F4C /* TestPods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD4BA633212A94C4009C3F4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FD4BA634212A94C4009C3F4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD4BA65F212A9633009C3F4C /* libz.tbd in Frameworks */,
+				FD07CE40213D068800E3C6FB /* TencentOpenAPI.framework in Frameworks */,
 				FD4BA65D212A962E009C3F4C /* libstdc++.tbd in Frameworks */,
 				FD4BA65B212A9627009C3F4C /* libsqlite3.tbd in Frameworks */,
 				FD4BA659212A9622009C3F4C /* CoreTelephony.framework in Frameworks */,
@@ -103,6 +106,7 @@
 		FD4BA649212A9580009C3F4C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FD07CE3F213D068700E3C6FB /* TencentOpenAPI.framework */,
 				FD4BA64A212A9595009C3F4C /* ZLTestQQClass.h */,
 				FD4BA64B212A9595009C3F4C /* ZLTestQQClass.m */,
 			);
@@ -344,12 +348,12 @@
 					"$(PROJECT_DIR)/TestPods/Classes",
 				);
 				INFOPLIST_FILE = TestPods/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ZL.TTest;
+				PRODUCT_BUNDLE_IDENTIFIER = ZL.TTTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,12 +370,12 @@
 					"$(PROJECT_DIR)/TestPods/Classes",
 				);
 				INFOPLIST_FILE = TestPods/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ZL.TTest;
+				PRODUCT_BUNDLE_IDENTIFIER = ZL.TTTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
